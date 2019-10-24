@@ -23,3 +23,20 @@ function primeGen(num) {
 }
 
 console.log(primeGen(10));
+
+function cumulativeSum(nums) {
+  const sums = [];
+  let tempSum;
+  let i;
+  let j;
+  for (i = 0; i < nums.length; i++) {
+    tempSum = 0;
+    for (j = 0; j <= i; j++) {
+      tempSum += nums[j];
+    }
+    sums.push(tempSum);
+  }
+  return sums;
+}
+
+console.log(cumulativeSum([1, 2, 3, 4]));
