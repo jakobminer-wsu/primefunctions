@@ -66,4 +66,5 @@ function maxPrimeSum(num) {
   return [maxSum, maxLength];
 }
 
+console.log(maxPrimeSum(100));
 console.log(maxPrimeSum(1000));
