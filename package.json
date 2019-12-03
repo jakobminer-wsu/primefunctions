@@ -1,0 +1,23 @@
+{
+  "name": "primefunctions",
+  "version": "1.0.0",
+  "description": "CS330 Assignment 4",
+  "main": "primefunctions.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakobminer-wsu/primefunctions.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jakobminer-wsu/primefunctions/issues"
+  },
+  "homepage": "https://github.com/jakobminer-wsu/primefunctions#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2"
+  }
+}
