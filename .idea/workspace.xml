@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae9558db-d091-4891-95ff-37a9cc116b4a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Screenshot_2019-12-03_19-50-07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/jm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PassedOptimization.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/primefunctions2.js" beforeDir="false" afterPath="$PROJECT_DIR$/primefunctions2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testPerformance.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/testPerformance.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -139,7 +138,7 @@
       <workItem from="1571881137914" duration="10799000" />
       <workItem from="1572038968762" duration="240000" />
       <workItem from="1572039268910" duration="934000" />
-      <workItem from="1575407782112" duration="20283000" />
+      <workItem from="1575407782112" duration="20829000" />
     </task>
     <task id="LOCAL-00001" summary="built framework/set up ESlint">
       <created>1571811875011</created>
