@@ -3,7 +3,7 @@
 
 describe('Test for Performance', function () {
   describe('maxPrimeSum', function () {
-    it('maxPrimeSum(10000)should take less than 20ms', function () {
+    it('maxPrimeSum(10000) should take less than 20ms', function () {
       this.slow(0);
       this.timeout(20);
       chai.assert.deepEqual(maxPrimeSum(10000), [9521, 65]);

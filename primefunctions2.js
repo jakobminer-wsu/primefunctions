@@ -50,18 +50,17 @@ console.log(cumulativeSum([1, 2, 3, 4]));
 
 function maxPrimeSum(num) {
   const allPrimes = primeGen(num);
-  let i;
-  let j;
   let primeSum;
   let length;
   let maxSum;
   let maxLength = 0;
-  for (i = 0; i < allPrimes.length; i++) {
+  for (let i = 0; i < allPrimes.length; i++) {
     primeSum = allPrimes[i];
     length = 1;
-    for (j = i + 1; j < allPrimes.length; j++) {
+    for (let j = i + 1; j < allPrimes.length; j++) {
       primeSum += allPrimes[j];
       length++;
+      if (primeSum > num) break;
       if (isPrime(primeSum) && primeSum < num) {
         if (length > maxLength) {
           maxSum = primeSum;
